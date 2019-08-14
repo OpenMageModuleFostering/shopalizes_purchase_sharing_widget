@@ -1,0 +1,110 @@
+<?xml version="1.0"?>
+<!--
+/**
+ * @website    http://www.oceanwebsoft.com
+ * @license    http://opensource.org/licenses/osl-3.0.php  Open Software License (OSL 3.0)
+ */
+ -->
+<config>    
+     <tabs>
+        <shopalizeall translate="label" module="purchasesharingwidget">
+            <label>Shopalize Extensions</label>
+            <sort_order>400</sort_order>
+        </shopalizeall>
+    </tabs>
+    <sections>
+       <!-- <shopalizeinfo translate="label" module="purchasesharingwidget">
+	    <label>Info</label>
+	    <tab>shopalizeall</tab>
+	    <frontend_type>text</frontend_type>
+	    <sort_order>99999999999</sort_order>
+	    <show_in_default>1</show_in_default>
+	    <show_in_website>1</show_in_website>
+	    <show_in_store>1</show_in_store>
+	    <groups>
+                <info>
+                    <frontend_model>purchasesharingwidget/system_config_info</frontend_model>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                </info>                     
+			</groups>
+		</shopalizeinfo>-->
+        <purchasesharingwidget module="purchasesharingwidget">
+            <label>Post Purchase Sharing</label>
+            <tab>shopalizeall</tab>
+            <frontend_type>text</frontend_type>
+            <sort_order>400</sort_order>
+            <show_in_default>1</show_in_default>
+            <show_in_website>1</show_in_website>
+            <show_in_store>1</show_in_store>
+            <groups>
+				<info>
+				  <label>About Extension</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>10</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+						<purchasesharingwidget_info translate="label">
+							<frontend_model>purchasesharingwidget/system_config_info_about</frontend_model>
+							<sort_order>10</sort_order>
+							<show_in_default>1</show_in_default>
+							<show_in_website>1</show_in_website>
+							<show_in_store>1</show_in_store>
+						</purchasesharingwidget_info>
+                                   
+                    </fields>
+				</info>
+                <settings translate="label">
+                    <label>Plugin Settings</label>
+                    <frontend_type>text</frontend_type>
+                    <sort_order>11</sort_order>
+                    <show_in_default>1</show_in_default>
+                    <show_in_website>1</show_in_website>
+                    <show_in_store>1</show_in_store>
+                    <fields>
+                        <active translate="label">
+                            <label>Enabled</label>
+                            <frontend_type>select</frontend_type>
+                            <source_model>adminhtml/system_config_source_yesno</source_model>
+                            <sort_order>10</sort_order>
+                            <show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>
+                        </active>  
+						<merchant_id translate="label">
+                            <label>Merchant Id</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>20</sort_order><show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>  
+                            <comment><![CDATA[Get Shopalize Merchant ID by signing up at <a target="_blank" href="http://www.shopalize.com">www.shopalize.com</a>. Look for Account ID value on Settings or Integration Guide page.]]></comment>                           
+                        </merchant_id>
+                        <store_id translate="label">
+                            <label>Store Id</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>21</sort_order><show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>  
+                            <comment><![CDATA[Get Shopalize Store ID by signing up at <a target="_blank" href="http://www.shopalize.com">www.shopalize.com</a>. Look for Store ID value on Settings or Integration Guide page.]]></comment>                           
+                        </store_id>
+                      	<widget_width translate="label">
+                            <label>Plugin Width</label>
+                            <frontend_type>text</frontend_type>
+                            <sort_order>30</sort_order><show_in_default>1</show_in_default>
+                            <show_in_website>1</show_in_website>
+                            <show_in_store>1</show_in_store>  
+                            <comment><![CDATA[Size in px Example: 400]]></comment>                           
+                        </widget_width>
+                        
+                                   
+                    </fields>
+                </settings>
+                              
+            </groups>
+        </purchasesharingwidget>
+    </sections>
+</config>

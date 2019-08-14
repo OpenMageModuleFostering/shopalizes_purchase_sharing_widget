@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Shopalizes_Purchase_Sharing_Widget</name>
+    <version>1.1.2</version>
+    <stability>stable</stability>
+    <license>Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Shopalize helps Online Retailers to increase social sharing and customer referrals from Social Media.</summary>
+    <description>Shopalize's Post Purchase Sharing Plugin appears on your store's order confirmation page i.e. after checkout is complete. After every purchase is complete, shoppers are prompted and rewarded for sharing their purchase or your store with their friends on Facebook or Twitter. Shopalize also provide an A/B Testing platform to experiment with various campaigns and social analytics suite to measure ROI and track influential customers. Once you integrate Shopalize's plugin to your storefront and kick start few campaigns, then you don't need any involvement maintaining these campaigns. Just sit back &amp; relax or focus on other tasks at your hand, and let Shopalize drive social traffic and sales to your store. Seriously, it's the easiest and most powerful marketing solution out there.</description>
+    <notes>Add Store Id in Magento configuration and provide store id setting from Shapalize</notes>
+    <authors><author><name>Aditya Kothadiya</name><user>shopalize</user><email>aditya@shopalize.com</email></author></authors>
+    <date>2012-07-26</date>
+    <time>12:56:02</time>
+    <contents><target name="magecommunity"><dir name="Shopalize"><dir name="Purchasesharingwidget"><dir name="Block"><file name="Purchasesharingwidget.php" hash="345cd1a160a857e4cec48d400bb91c1c"/><file name="Success.php" hash="92428ca11a72510a62952e8515e38d7f"/><dir name="System"><dir name="Config"><dir name="Info"><file name="About.php" hash="4cd569d89ef211946be266ba39a9cdd0"/></dir><file name="Info.php" hash="7631831242ab43ae4727bc5fe96a6ddb"/></dir></dir></dir><dir name="Helper"><file name="Data.php" hash="97d88800c4e23bc627ab5c9218142b4a"/><file name="Event.php" hash="2d0abe92ee6e32e23007165a9a17542a"/></dir><dir name="controllers"><file name="IndexController.php" hash="a82c545d242ee4fc9a40de34c103b1db"/></dir><dir name="etc"><file name="adminhtml.xml" hash="86bdb512b92ee4b236d6e611953cad6d"/><file name="config.xml" hash="98b33b5109f2977acbc1b403c3f7c71a"/><file name="system.xml" hash="83b7a00fde3561667697ba5c2d9ba4bf"/></dir></dir></dir></target><target name="magedesign"><dir name="frontend"><dir name="default"><dir name="default"><dir name="layout"><file name="purchasesharingwidget.xml" hash="3854556688b7e27a8e7eda0cdf2b6610"/></dir><dir name="template"><dir name="purchasesharingwidget"><file name="success.phtml" hash="c8c9d7cc98322536216ea9b03744b0b7"/><file name="widget.phtml" hash="610125320c31cf7960077555a0acbeef"/></dir></dir></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Shopalize_Purchasesharingwidget.xml" hash="374670608fd7b7012a90aeec163220f9"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.1.0</min><max>100.0.0</max></php></required></dependencies>
+</package>

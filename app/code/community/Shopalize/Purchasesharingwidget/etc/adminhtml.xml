@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+/**
+ * @company    Ocean Websoft Pvt. Ltd.<www.oceanwebsoft.com> 
+ * @author     Ashwini Dinker<ashwini.owsm@gmail.com>
+ *
+ * @category   Oceanwebsoft
+ * @package    Oceanwebsoft_Shopalize_Social_widget 
+ */
+
+-->
+<config>
+        <acl>
+            <resources>
+                <admin>
+                    <children>
+                        <system>
+                            <children>
+                                <config>
+                                    <children>
+                                        <purchasesharingwidget translate="title" module="purchasesharingwidget">
+                                            <title>Shpalize Purchase Sharing Widget</title>
+                                            
+                                        </purchasesharingwidget>
+                                    </children>
+                                </config>
+                            </children>
+                        </system>
+                    </children>
+                </admin>
+            </resources>
+        </acl>
+ </config>

@@ -1,12 +1,12 @@
 <?php
 /**
- * @company    Ocean Websoft Pvt. Ltd.<www.oceanwebsoft.com> 
- * @author     Ashwini Dinker<ashwini.owsm@gmail.com>
+ * @company    Bytes Technolab<www.bytestechnolab.com> 
+ * @author     Bytes Technolab<info@bytestechnolab.com>
  *
- * @category   Oceanwebsoft
- * @package    Oceanwebsoft_Shopalize_Social_widget 
+ * @category   Shopalize
+ * @package    Shopalize_Purchasesharing_Block_System_Config_Info 
  */
-class Shopalize_Purchasesharingwidget_Block_System_Config_Info
+class Shopalize_Purchasesharing_Block_System_Config_Info
     extends Mage_Adminhtml_Block_Abstract
     implements Varien_Data_Form_Element_Renderer_Interface
 {

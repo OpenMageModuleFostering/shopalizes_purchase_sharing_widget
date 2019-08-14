@@ -1,13 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!--
 /**
- * @company    Ocean Websoft Pvt. Ltd.<www.oceanwebsoft.com> 
- * @author     Ashwini Dinker<ashwini.owsm@gmail.com>
+ * @company    Bytes Technolab <www.bytestechnolab.com> 
+ * @author     Bytes Technolab <info@bytestechnolab.com>
  *
- * @category   Oceanwebsoft
- * @package    Oceanwebsoft_Shopalize_Social_widget 
+ * @category   Shopalize
+ * @package    Shopalize_Purchasesharing 
  */
-
 -->
 <config>
         <acl>
@@ -18,10 +17,9 @@
                             <children>
                                 <config>
                                     <children>
-                                        <purchasesharingwidget translate="title" module="purchasesharingwidget">
-                                            <title>Shpalize Purchase Sharing Widget</title>
-                                            
-                                        </purchasesharingwidget>
+                                        <purchasesharing translate="title" module="purchasesharing">
+                                            <title>Shpalize Purchase Sharing</title>
+                                        </purchasesharing>
                                     </children>
                                 </config>
                             </children>

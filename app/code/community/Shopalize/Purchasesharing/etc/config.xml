@@ -7,43 +7,45 @@
  -->
 <config>
     <modules>
-        <Shopalize_Purchasesharingwidget>
+        <Shopalize_Purchasesharing>
             <version>1.1.1</version>
-        </Shopalize_Purchasesharingwidget>
+        </Shopalize_Purchasesharing>
     </modules>
     <global>
         <helpers>
-            <purchasesharingwidget>
-                <class>Shopalize_Purchasesharingwidget_Helper</class>
-            </purchasesharingwidget>
+            <purchasesharing>
+                <class>Shopalize_Purchasesharing_Helper</class>
+            </purchasesharing>
         </helpers>
-		
 		<blocks>
-            <purchasesharingwidget>
-                <class>Shopalize_Purchasesharingwidget_Block</class>
-            </purchasesharingwidget>
+            <purchasesharing>
+                <class>Shopalize_Purchasesharing_Block</class>
+            </purchasesharing>
             <checkout>
 				<rewrite>
-					<success>Shopalize_Purchasesharingwidget_Block_Success</success>
+					<success>Shopalize_Purchasesharing_Block_Success</success>
 				</rewrite>
 	   		</checkout>
         </blocks>
-		
-		
     </global>		
     <frontend>
-	
 		<events>
 			<core_block_abstract_to_html_before>
 				<observers>
-					<purchasesharingwidget_core_block_abstract_to_html_before>
-						<class>Shopalize_Purchasesharingwidget_Helper_Event</class>
+					<purchasesharing_core_block_abstract_to_html_before>
+						<class>Shopalize_Purchasesharing_Helper_Event</class>
 						<method>core_block_abstract_to_html_before_checkout_success</method>
-					</purchasesharingwidget_core_block_abstract_to_html_before>
+					</purchasesharing_core_block_abstract_to_html_before>
 				</observers>
 			</core_block_abstract_to_html_before>
 		</events>
-		
+		<layout>
+			<updates>
+				<purchasesharing>
+					<file>shopalizepurchasesharing.xml</file>
+				</purchasesharing>
+			</updates>
+		</layout>
     </frontend>
 	<adminhtml>
         <acl>
@@ -57,9 +59,9 @@
                                         <shopalizeinfo>
 											<title>Shopalize</title>
 										</shopalizeinfo>
-                                        <purchasesharingwidget>
+                                        <purchasesharing>
                                             <title>Post Purchase Sharing Plugin</title>
-                                        </purchasesharingwidget>
+                                        </purchasesharing>
                                     </children>
                                 </config>
                             </children>
@@ -70,12 +72,11 @@
         </acl>
     </adminhtml>  
 	<default>
-       <purchasesharingwidget>
+       <purchasesharing>
             <settings>
 				<active>0</active>  
                 <widget_width>400</widget_width>
-                
             </settings>
-		</purchasesharingwidget>
+		</purchasesharing>
     </default>
 </config>

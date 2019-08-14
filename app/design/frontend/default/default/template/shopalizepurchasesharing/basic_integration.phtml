@@ -1,0 +1,16 @@
+<?php
+if($this->isEnabled()){ ?>
+	<!-- Shopalize Basic Integration BEGIN -->
+	<script>  
+	(function(w, d, id) {
+	  if (d.getElementById(id)) return;
+	  Shopalize = w.Shopalize || {}; 
+	  Shopalize.store_id = '<?php echo $this->getShopalizeStoreId() ?>';
+	  Shopalize.base_url = ('https:'== d.location.protocol ? 'https://' : 'http://') + 'www.shopalize.com';
+	  var script = d.createElement('script'), entry; script.type = 'text/javascript'; script.id = id;
+	  script.async = true; script.src = Shopalize.base_url + '/js/all.js';
+	  entry = d.getElementsByTagName('script')[0]; entry.parentNode.insertBefore(script, entry);
+	}(window, document, 'shopalize-js'));
+	</script>
+	<!-- Shopalize Basic Integration END -->
+<?php } ?>

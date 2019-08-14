@@ -1,12 +1,12 @@
 <?xml version="1.0"?>
 <config>
     <modules>
-        <Shopalize_Purchasesharingwidget>
+        <Shopalize_Purchasesharing>
             <active>true</active>
             <codePool>community</codePool>
             <depends>
                 <Mage_Checkout />
             </depends>
-        </Shopalize_Purchasesharingwidget>     
+        </Shopalize_Purchasesharing>     
     </modules>
 </config>

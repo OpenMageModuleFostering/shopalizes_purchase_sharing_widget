@@ -1,16 +1,19 @@
 {
-    "name": "OpenMageModuleFostering/Shopalizes_Purchase_Sharing_Widget",
+    "name": "OpenMageModuleFostering\/Shopalizes_Purchase_Sharing_Widget",
     "type": "magento-module",
     "license": "Open-Software-License-(OSL)",
     "homepage": "",
     "description": "Shopalize helps Online Retailers to increase social sharing and customer referrals from Social Media.",
     "authors": [
-    {
-        "name": "Aditya Kothadiya",
-        "email": "aditya@shopalize.com"
-    }
-],
+        {
+            "name": "Aditya Kothadiya",
+            "email": "aditya@shopalize.com"
+        }
+    ],
     "suggest": {
-        "magento-hackathon/magento-composer-installer": "*"
-    }
+        "magento-hackathon\/magento-composer-installer": "*"
+    },
+    "keywords": [
+        "openmage-module"
+    ]
 }

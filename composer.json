@@ -1,7 +1,7 @@
 {
-    "name": "OpenMageModuleFostering\/Shopalizes_Purchase_Sharing_Widget",
+    "name": "openmage-module-fostering\/shopalizes_purchase_sharing_widget",
     "type": "magento-module",
-    "license": "Open-Software-License-(OSL)",
+    "license": "OSL-3.0",
     "homepage": "",
     "description": "Shopalize helps Online Retailers to increase social sharing and customer referrals from Social Media.",
     "authors": [
